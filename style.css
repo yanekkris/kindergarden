@@ -24,7 +24,7 @@ h1,h2,h3{
 
 /* header section*/
 nav{
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     height: auto;
