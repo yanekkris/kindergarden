@@ -16,6 +16,8 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/* header section*/
 nav{
     position: fixed;
     top: 0;
@@ -31,9 +33,8 @@ nav a {
     text-decoration: none;
     text-align: center;
     padding: 14px 30px;
+    color: grey;
 }
-
-/* header section*/
 header{
     height: 600px;
     background: url(img/banner.jpg) no-repeat top center;
@@ -42,6 +43,13 @@ header{
 }
 header h1{
     color: white;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+
 }
 header h1::first-letter{
     color: yellow;
@@ -51,6 +59,13 @@ header h1::first-letter{
 }
 .colored_k{
     color:blue;
+}
+.line{
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    border: 3px solid white;
+    width: 330px;
 }
 
 /* mission section*/
@@ -103,7 +118,7 @@ header h1::first-letter{
     
 }
 /* sections styles*/
-section h2{
+footer h2, section h2{
     font-size: 2rem;
     margin: 20px 0;
 }
@@ -119,4 +134,24 @@ section div{
 /* footer section*/
 footer{
     background-color: var(--background-4);
+    height: auto;
+    color: white;
 }
+footer>div{
+    width: 50%;
+    margin: 0 auto;
+    padding: 80px 0;
+    text-align: left;
+}
+footer p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin:  0 0 10px 0;
+}
+footer span{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
