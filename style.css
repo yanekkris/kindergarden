@@ -1,0 +1,100 @@
+:root {
+    --background-1: #fff;
+    --background-2: #FFE964;
+    --background-3: #FF523D;
+    --background-4: #223C88;
+    --text: #000;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: var(--background-1);
+    overflow: hidden;
+
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 30px;
+}
+header{
+    height: 600px;
+    background: url(img/banner.jpg) no-repeat top center ;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-size: cover;
+}
+header h1{
+    color: white;
+}
+
+
+header h1::first-letter{
+    color: yellow;
+}
+.colored_i{
+    color: red;
+}
+.colored_k{
+    color:blue;
+}
+section div{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.our_mission{
+    background-color: var(--background-2);
+    height: auto;
+}
+.our_mission div{
+    height: 350px;
+    padding: 80px 0;
+    text-align: center;
+}
+.our_mission h2{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+section p{
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.about_us{
+    background-color: var(--background-1);
+    height: auto;
+}
+.about_us div{
+    height: 500px;
+    padding: 80px 0;
+    text-align: left;
+}
+section h2{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.out_team{
+    background-color: var(--background-3);
+    height: auto;
+}
+
+
+
+footer{
+    background-color: var(--background-4);
+}
