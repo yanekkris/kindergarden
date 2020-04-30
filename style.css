@@ -32,17 +32,17 @@ nav a {
     text-align: center;
     padding: 14px 30px;
 }
+
+/* header section*/
 header{
     height: 600px;
-    background: url(img/banner.jpg) no-repeat top center ;
-    background-color: rgb(0, 0, 0, 0.5);
+    background: url(img/banner.jpg) no-repeat top center;
+    background-color: rgb(0, 0, 0, 0.3);
     background-size: cover;
 }
 header h1{
     color: white;
 }
-
-
 header h1::first-letter{
     color: yellow;
 }
@@ -52,11 +52,8 @@ header h1::first-letter{
 .colored_k{
     color:blue;
 }
-section div{
-    width: 50%;
-    margin: 0 auto;
-}
 
+/* mission section*/
 .our_mission{
     background-color: var(--background-2);
     height: auto;
@@ -70,11 +67,8 @@ section div{
     font-size: 2rem;
     margin: 20px 0;
 }
-section p{
-    font-weight: 400;
-    line-height: 1.7;
-}
 
+/* about us section*/
 .about_us{
     background-color: var(--background-1);
     height: auto;
@@ -84,17 +78,45 @@ section p{
     padding: 80px 0;
     text-align: left;
 }
+
+/* team section*/
+.team{
+    background-color: var(--background-3);
+    height: auto;
+    text-align: center;
+    color: white;
+}
+.team>div{
+    padding: 80px 0;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+.team img{
+    width: 50%;
+    margin: 20px 0;
+}
+.team div[class]{
+    margin: 40px auto;
+}
+.team h2{
+    text-align: left;
+    
+}
+/* sections styles*/
 section h2{
     font-size: 2rem;
     margin: 20px 0;
 }
-.out_team{
-    background-color: var(--background-3);
-    height: auto;
+section p{
+    font-weight: 400;
+    line-height: 1.7;
+}
+section div{
+    width: 50%;
+    margin: 0 auto;
 }
 
-
-
+/* footer section*/
 footer{
     background-color: var(--background-4);
 }
