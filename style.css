@@ -15,7 +15,12 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
+h1,h2,h3{
+    font-weight: 900;
+}
+
 
 /* header section*/
 nav{
@@ -151,7 +156,7 @@ footer p{
 footer span{
     display: inline-block;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 700;
     margin: 5px 0;
 }
 
